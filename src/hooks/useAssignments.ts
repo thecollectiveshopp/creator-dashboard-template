@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { Assignment } from '@/types/assignment';
 
-const CSV_URL = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vR71Z8tflSQ766x9J0dY1RCujrmPEKHPrH9q0uPmxF-CUq29W00jJuLc6jMpGMjoFhyKC4-KreB0J1j/pub?gid=1020515194&single=true&output=csv';
+const CSV_URL = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vSNrwgH-lfZI9yQ1P4G-ciegSjqW6g2EMemyQaZQY294LyCH-Ul-q93v6kV_fXcn3K7S9hfzVUqsql2/pub?output=csv';
 
 // Parse CSV text into rows, correctly handling multi-line quoted fields
 function parseCSVRows(csvText: string): string[][] {
